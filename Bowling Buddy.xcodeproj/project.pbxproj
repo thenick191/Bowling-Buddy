@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD338D49193926800060577F /* MenuBackground-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D48193926800060577F /* MenuBackground-tall.png */; };
+		DD338D4B193927CD0060577F /* StartButton-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D4A193927CD0060577F /* StartButton-tall.png */; };
+		DD338D4D1939298C0060577F /* PlainBackground-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D4C1939298C0060577F /* PlainBackground-tall.png */; };
+		DD338D53193987240060577F /* BackButton-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D4E193987240060577F /* BackButton-tall.png */; };
+		DD338D54193987240060577F /* ChooseSeason-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D4F193987240060577F /* ChooseSeason-tall.png */; };
+		DD338D55193987240060577F /* EditSession-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D50193987240060577F /* EditSession-tall.png */; };
+		DD338D56193987240060577F /* NewSeason-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D51193987240060577F /* NewSeason-tall.png */; };
+		DD338D57193987240060577F /* NewSession-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D52193987240060577F /* NewSession-tall.png */; };
+		DD338D5A193A27FC0060577F /* AddScoreButton-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D58193A27FC0060577F /* AddScoreButton-tall.png */; };
+		DD338D5B193A27FC0060577F /* RemoveScoreButton-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D59193A27FC0060577F /* RemoveScoreButton-tall.png */; };
+		DD338D5D193A28050060577F /* CreateButton-tall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD338D5C193A28050060577F /* CreateButton-tall.png */; };
+		DD338D60193A41A10060577F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD338D5F193A41A10060577F /* iAd.framework */; };
+		DD937A1119304B7200AD2741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD937A1019304B7200AD2741 /* Foundation.framework */; };
+		DD937A1319304B7200AD2741 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD937A1219304B7200AD2741 /* CoreGraphics.framework */; };
+		DD937A1519304B7200AD2741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD937A1419304B7200AD2741 /* UIKit.framework */; };
+		DD937A1B19304B7200AD2741 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD937A1919304B7200AD2741 /* InfoPlist.strings */; };
+		DD937A1D19304B7200AD2741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A1C19304B7200AD2741 /* main.m */; };
+		DD937A2119304B7200AD2741 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A2019304B7200AD2741 /* AppDelegate.m */; };
+		DD937A2419304B7200AD2741 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD937A2219304B7200AD2741 /* Main_iPhone.storyboard */; };
+		DD937A2719304B7200AD2741 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD937A2519304B7200AD2741 /* Main_iPad.storyboard */; };
+		DD937A2A19304B7200AD2741 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A2919304B7200AD2741 /* ViewController.m */; };
+		DD937A2C19304B7300AD2741 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD937A2B19304B7300AD2741 /* Images.xcassets */; };
+		DD937A3319304B7300AD2741 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD937A3219304B7300AD2741 /* XCTest.framework */; };
+		DD937A3419304B7300AD2741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD937A1019304B7200AD2741 /* Foundation.framework */; };
+		DD937A3519304B7300AD2741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD937A1419304B7200AD2741 /* UIKit.framework */; };
+		DD937A3D19304B7300AD2741 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD937A3B19304B7300AD2741 /* InfoPlist.strings */; };
+		DD937A3F19304B7300AD2741 /* Bowling_BuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A3E19304B7300AD2741 /* Bowling_BuddyTests.m */; };
+		DD937A4A1930509E00AD2741 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A491930509E00AD2741 /* Game.m */; };
+		DD937A4D1930518000AD2741 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A4C1930518000AD2741 /* Session.m */; };
+		DD937A50193052BA00AD2741 /* Season.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A4F193052BA00AD2741 /* Season.m */; };
+		DD937A531930CA9300AD2741 /* SeasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A521930CA9300AD2741 /* SeasonViewController.m */; };
+		DD937A5619311FA900AD2741 /* NewSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A5519311FA900AD2741 /* NewSessionViewController.m */; };
+		DD937A591931345F00AD2741 /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A581931345F00AD2741 /* UserAccount.m */; };
+		DD937A5C19315A8D00AD2741 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A5B19315A8D00AD2741 /* MainMenuViewController.m */; };
+		DD937A5F19337B5500AD2741 /* NewSeasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD937A5E19337B5500AD2741 /* NewSeasonViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD937A3619304B7300AD2741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD937A0519304B7200AD2741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD937A0C19304B7200AD2741;
+			remoteInfo = "Bowling Buddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD338D48193926800060577F /* MenuBackground-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBackground-tall.png"; sourceTree = "<group>"; };
+		DD338D4A193927CD0060577F /* StartButton-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartButton-tall.png"; sourceTree = "<group>"; };
+		DD338D4C1939298C0060577F /* PlainBackground-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlainBackground-tall.png"; sourceTree = "<group>"; };
+		DD338D4E193987240060577F /* BackButton-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackButton-tall.png"; sourceTree = "<group>"; };
+		DD338D4F193987240060577F /* ChooseSeason-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ChooseSeason-tall.png"; sourceTree = "<group>"; };
+		DD338D50193987240060577F /* EditSession-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EditSession-tall.png"; sourceTree = "<group>"; };
+		DD338D51193987240060577F /* NewSeason-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewSeason-tall.png"; sourceTree = "<group>"; };
+		DD338D52193987240060577F /* NewSession-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewSession-tall.png"; sourceTree = "<group>"; };
+		DD338D58193A27FC0060577F /* AddScoreButton-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddScoreButton-tall.png"; sourceTree = "<group>"; };
+		DD338D59193A27FC0060577F /* RemoveScoreButton-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RemoveScoreButton-tall.png"; sourceTree = "<group>"; };
+		DD338D5C193A28050060577F /* CreateButton-tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CreateButton-tall.png"; sourceTree = "<group>"; };
+		DD338D5E193A2BAA0060577F /* Wide-Latin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wide-Latin.ttf"; sourceTree = "<group>"; };
+		DD338D5F193A41A10060577F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		DD937A0D19304B7200AD2741 /* Bowling Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bowling Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD937A1019304B7200AD2741 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD937A1219304B7200AD2741 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD937A1419304B7200AD2741 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD937A1819304B7200AD2741 /* Bowling Buddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bowling Buddy-Info.plist"; sourceTree = "<group>"; };
+		DD937A1A19304B7200AD2741 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD937A1C19304B7200AD2741 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD937A1E19304B7200AD2741 /* Bowling Buddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bowling Buddy-Prefix.pch"; sourceTree = "<group>"; };
+		DD937A1F19304B7200AD2741 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD937A2019304B7200AD2741 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD937A2319304B7200AD2741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DD937A2619304B7200AD2741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DD937A2819304B7200AD2741 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD937A2919304B7200AD2741 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD937A2B19304B7300AD2741 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD937A3119304B7300AD2741 /* Bowling BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bowling BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD937A3219304B7300AD2741 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD937A3A19304B7300AD2741 /* Bowling BuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bowling BuddyTests-Info.plist"; sourceTree = "<group>"; };
+		DD937A3C19304B7300AD2741 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD937A3E19304B7300AD2741 /* Bowling_BuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bowling_BuddyTests.m; sourceTree = "<group>"; };
+		DD937A481930509E00AD2741 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		DD937A491930509E00AD2741 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		DD937A4B1930518000AD2741 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		DD937A4C1930518000AD2741 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		DD937A4E193052BA00AD2741 /* Season.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Season.h; sourceTree = "<group>"; };
+		DD937A4F193052BA00AD2741 /* Season.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Season.m; sourceTree = "<group>"; };
+		DD937A511930CA9300AD2741 /* SeasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeasonViewController.h; sourceTree = "<group>"; };
+		DD937A521930CA9300AD2741 /* SeasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeasonViewController.m; sourceTree = "<group>"; };
+		DD937A5419311FA900AD2741 /* NewSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSessionViewController.h; sourceTree = "<group>"; };
+		DD937A5519311FA900AD2741 /* NewSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSessionViewController.m; sourceTree = "<group>"; };
+		DD937A571931345F00AD2741 /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
+		DD937A581931345F00AD2741 /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
+		DD937A5A19315A8D00AD2741 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		DD937A5B19315A8D00AD2741 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		DD937A5D19337B5500AD2741 /* NewSeasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSeasonViewController.h; sourceTree = "<group>"; };
+		DD937A5E19337B5500AD2741 /* NewSeasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSeasonViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD937A0A19304B7200AD2741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD338D60193A41A10060577F /* iAd.framework in Frameworks */,
+				DD937A1319304B7200AD2741 /* CoreGraphics.framework in Frameworks */,
+				DD937A1519304B7200AD2741 /* UIKit.framework in Frameworks */,
+				DD937A1119304B7200AD2741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD937A2E19304B7300AD2741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD937A3319304B7300AD2741 /* XCTest.framework in Frameworks */,
+				DD937A3519304B7300AD2741 /* UIKit.framework in Frameworks */,
+				DD937A3419304B7300AD2741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD338D47193926330060577F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD338D5E193A2BAA0060577F /* Wide-Latin.ttf */,
+				DD338D58193A27FC0060577F /* AddScoreButton-tall.png */,
+				DD338D5C193A28050060577F /* CreateButton-tall.png */,
+				DD338D59193A27FC0060577F /* RemoveScoreButton-tall.png */,
+				DD338D4E193987240060577F /* BackButton-tall.png */,
+				DD338D4F193987240060577F /* ChooseSeason-tall.png */,
+				DD338D50193987240060577F /* EditSession-tall.png */,
+				DD338D51193987240060577F /* NewSeason-tall.png */,
+				DD338D52193987240060577F /* NewSession-tall.png */,
+				DD338D4C1939298C0060577F /* PlainBackground-tall.png */,
+				DD338D4A193927CD0060577F /* StartButton-tall.png */,
+				DD338D48193926800060577F /* MenuBackground-tall.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DD937A0419304B7200AD2741 = {
+			isa = PBXGroup;
+			children = (
+				DD937A1619304B7200AD2741 /* Bowling Buddy */,
+				DD937A3819304B7300AD2741 /* Bowling BuddyTests */,
+				DD937A0F19304B7200AD2741 /* Frameworks */,
+				DD937A0E19304B7200AD2741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD937A0E19304B7200AD2741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD937A0D19304B7200AD2741 /* Bowling Buddy.app */,
+				DD937A3119304B7300AD2741 /* Bowling BuddyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD937A0F19304B7200AD2741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD338D5F193A41A10060577F /* iAd.framework */,
+				DD937A1019304B7200AD2741 /* Foundation.framework */,
+				DD937A1219304B7200AD2741 /* CoreGraphics.framework */,
+				DD937A1419304B7200AD2741 /* UIKit.framework */,
+				DD937A3219304B7300AD2741 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD937A1619304B7200AD2741 /* Bowling Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				DD937A1F19304B7200AD2741 /* AppDelegate.h */,
+				DD937A2019304B7200AD2741 /* AppDelegate.m */,
+				DD937A2219304B7200AD2741 /* Main_iPhone.storyboard */,
+				DD937A2519304B7200AD2741 /* Main_iPad.storyboard */,
+				DD937A2819304B7200AD2741 /* ViewController.h */,
+				DD937A2919304B7200AD2741 /* ViewController.m */,
+				DD937A5D19337B5500AD2741 /* NewSeasonViewController.h */,
+				DD937A5E19337B5500AD2741 /* NewSeasonViewController.m */,
+				DD937A5A19315A8D00AD2741 /* MainMenuViewController.h */,
+				DD937A5B19315A8D00AD2741 /* MainMenuViewController.m */,
+				DD937A511930CA9300AD2741 /* SeasonViewController.h */,
+				DD937A521930CA9300AD2741 /* SeasonViewController.m */,
+				DD937A5419311FA900AD2741 /* NewSessionViewController.h */,
+				DD937A5519311FA900AD2741 /* NewSessionViewController.m */,
+				DD937A481930509E00AD2741 /* Game.h */,
+				DD937A491930509E00AD2741 /* Game.m */,
+				DD937A4B1930518000AD2741 /* Session.h */,
+				DD937A4C1930518000AD2741 /* Session.m */,
+				DD937A4E193052BA00AD2741 /* Season.h */,
+				DD937A4F193052BA00AD2741 /* Season.m */,
+				DD937A571931345F00AD2741 /* UserAccount.h */,
+				DD937A581931345F00AD2741 /* UserAccount.m */,
+				DD937A2B19304B7300AD2741 /* Images.xcassets */,
+				DD338D47193926330060577F /* Images */,
+				DD937A1719304B7200AD2741 /* Supporting Files */,
+			);
+			path = "Bowling Buddy";
+			sourceTree = "<group>";
+		};
+		DD937A1719304B7200AD2741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD937A1819304B7200AD2741 /* Bowling Buddy-Info.plist */,
+				DD937A1919304B7200AD2741 /* InfoPlist.strings */,
+				DD937A1C19304B7200AD2741 /* main.m */,
+				DD937A1E19304B7200AD2741 /* Bowling Buddy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD937A3819304B7300AD2741 /* Bowling BuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD937A3E19304B7300AD2741 /* Bowling_BuddyTests.m */,
+				DD937A3919304B7300AD2741 /* Supporting Files */,
+			);
+			path = "Bowling BuddyTests";
+			sourceTree = "<group>";
+		};
+		DD937A3919304B7300AD2741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD937A3A19304B7300AD2741 /* Bowling BuddyTests-Info.plist */,
+				DD937A3B19304B7300AD2741 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD937A0C19304B7200AD2741 /* Bowling Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD937A4219304B7300AD2741 /* Build configuration list for PBXNativeTarget "Bowling Buddy" */;
+			buildPhases = (
+				DD937A0919304B7200AD2741 /* Sources */,
+				DD937A0A19304B7200AD2741 /* Frameworks */,
+				DD937A0B19304B7200AD2741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bowling Buddy";
+			productName = "Bowling Buddy";
+			productReference = DD937A0D19304B7200AD2741 /* Bowling Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD937A3019304B7300AD2741 /* Bowling BuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD937A4519304B7300AD2741 /* Build configuration list for PBXNativeTarget "Bowling BuddyTests" */;
+			buildPhases = (
+				DD937A2D19304B7300AD2741 /* Sources */,
+				DD937A2E19304B7300AD2741 /* Frameworks */,
+				DD937A2F19304B7300AD2741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD937A3719304B7300AD2741 /* PBXTargetDependency */,
+			);
+			name = "Bowling BuddyTests";
+			productName = "Bowling BuddyTests";
+			productReference = DD937A3119304B7300AD2741 /* Bowling BuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD937A0519304B7200AD2741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicholas Lucchesi";
+				TargetAttributes = {
+					DD937A3019304B7300AD2741 = {
+						TestTargetID = DD937A0C19304B7200AD2741;
+					};
+				};
+			};
+			buildConfigurationList = DD937A0819304B7200AD2741 /* Build configuration list for PBXProject "Bowling Buddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD937A0419304B7200AD2741;
+			productRefGroup = DD937A0E19304B7200AD2741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD937A0C19304B7200AD2741 /* Bowling Buddy */,
+				DD937A3019304B7300AD2741 /* Bowling BuddyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD937A0B19304B7200AD2741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD937A2719304B7200AD2741 /* Main_iPad.storyboard in Resources */,
+				DD338D54193987240060577F /* ChooseSeason-tall.png in Resources */,
+				DD338D5A193A27FC0060577F /* AddScoreButton-tall.png in Resources */,
+				DD338D5B193A27FC0060577F /* RemoveScoreButton-tall.png in Resources */,
+				DD338D5D193A28050060577F /* CreateButton-tall.png in Resources */,
+				DD338D57193987240060577F /* NewSession-tall.png in Resources */,
+				DD937A2C19304B7300AD2741 /* Images.xcassets in Resources */,
+				DD338D49193926800060577F /* MenuBackground-tall.png in Resources */,
+				DD937A2419304B7200AD2741 /* Main_iPhone.storyboard in Resources */,
+				DD937A1B19304B7200AD2741 /* InfoPlist.strings in Resources */,
+				DD338D53193987240060577F /* BackButton-tall.png in Resources */,
+				DD338D55193987240060577F /* EditSession-tall.png in Resources */,
+				DD338D56193987240060577F /* NewSeason-tall.png in Resources */,
+				DD338D4D1939298C0060577F /* PlainBackground-tall.png in Resources */,
+				DD338D4B193927CD0060577F /* StartButton-tall.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD937A2F19304B7300AD2741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD937A3D19304B7300AD2741 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD937A0919304B7200AD2741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD937A50193052BA00AD2741 /* Season.m in Sources */,
+				DD937A2A19304B7200AD2741 /* ViewController.m in Sources */,
+				DD937A5619311FA900AD2741 /* NewSessionViewController.m in Sources */,
+				DD937A4D1930518000AD2741 /* Session.m in Sources */,
+				DD937A5C19315A8D00AD2741 /* MainMenuViewController.m in Sources */,
+				DD937A2119304B7200AD2741 /* AppDelegate.m in Sources */,
+				DD937A1D19304B7200AD2741 /* main.m in Sources */,
+				DD937A5F19337B5500AD2741 /* NewSeasonViewController.m in Sources */,
+				DD937A4A1930509E00AD2741 /* Game.m in Sources */,
+				DD937A591931345F00AD2741 /* UserAccount.m in Sources */,
+				DD937A531930CA9300AD2741 /* SeasonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD937A2D19304B7300AD2741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD937A3F19304B7300AD2741 /* Bowling_BuddyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD937A3719304B7300AD2741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD937A0C19304B7200AD2741 /* Bowling Buddy */;
+			targetProxy = DD937A3619304B7300AD2741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD937A1919304B7200AD2741 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD937A1A19304B7200AD2741 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD937A2219304B7200AD2741 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD937A2319304B7200AD2741 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DD937A2519304B7200AD2741 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD937A2619304B7200AD2741 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DD937A3B19304B7300AD2741 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD937A3C19304B7300AD2741 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD937A4019304B7300AD2741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD937A4119304B7300AD2741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD937A4319304B7300AD2741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowling Buddy/Bowling Buddy-Prefix.pch";
+				INFOPLIST_FILE = "Bowling Buddy/Bowling Buddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD937A4419304B7300AD2741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowling Buddy/Bowling Buddy-Prefix.pch";
+				INFOPLIST_FILE = "Bowling Buddy/Bowling Buddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD937A4619304B7300AD2741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bowling Buddy.app/Bowling Buddy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowling Buddy/Bowling Buddy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bowling BuddyTests/Bowling BuddyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DD937A4719304B7300AD2741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bowling Buddy.app/Bowling Buddy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowling Buddy/Bowling Buddy-Prefix.pch";
+				INFOPLIST_FILE = "Bowling BuddyTests/Bowling BuddyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD937A0819304B7200AD2741 /* Build configuration list for PBXProject "Bowling Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD937A4019304B7300AD2741 /* Debug */,
+				DD937A4119304B7300AD2741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD937A4219304B7300AD2741 /* Build configuration list for PBXNativeTarget "Bowling Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD937A4319304B7300AD2741 /* Debug */,
+				DD937A4419304B7300AD2741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD937A4519304B7300AD2741 /* Build configuration list for PBXNativeTarget "Bowling BuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD937A4619304B7300AD2741 /* Debug */,
+				DD937A4719304B7300AD2741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD937A0519304B7200AD2741 /* Project object */;
+}
